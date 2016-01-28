@@ -1,0 +1,9 @@
+<ul id="portfolio" class="small-block-grid-2 large-block-grid-3">
+  <li ng-repeat="site in vm.sites">
+    <a href="{{ site.url }}" target="_blank">
+      <span class="caption caption1" data-title="{{ site.title }}">
+        <img ng-src="images/portfolio/{{ site.photo }}.jpg">
+      </span>
+    </a>
+  </li>
+</ul>
